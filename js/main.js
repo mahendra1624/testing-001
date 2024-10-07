@@ -14,16 +14,16 @@
     const urlMappings = {
       'US': 'https://quickloadexpress.com/c?p=3128&o=1944&s2=taboola&s6=Lorax Pro - Healthy-Non-slip Barefoot Shoes&s7=https://hike-footwearz.com/img/main-image.webp',
       'IN': 'https://quickloadexpress.com/c?p=3128&o=1944&s2=taboola&s6=Lorax Pro - Healthy-Non-slip Barefoot Shoes&s7=https://hike-footwearz.com/img/main-image.webp',
-      'FR': 'https://quickloadexpress.com/c?p=3128&o=1944&s2=taboola&s6=Lorax Pro - Healthy-Non-slip Barefoot Shoes&s7=https://hike-footwearz.com/img/main-image.webp',
+      'EU': 'https://quickloadexpress.com/c?p=3128&o=1944&s2=taboola&s6=Lorax Pro - Healthy-Non-slip Barefoot Shoes&s7=https://hike-footwearz.com/img/main-image.webp',
       'default': 'https://quickloadexpress.com/c?p=3128&o=1944&s2=taboola&s6=Lorax Pro - Healthy-Non-slip Barefoot Shoes&s7=https://hike-footwearz.com/img/main-image.webp'
     };
 
     // Define currency mappings based on the country
     const currencyMappings = {
-      'US': '$',   // USD for US
-      'IN': '₹',   // INR for India
-      'EU': '€',   // Euro for France
-      'default': '$' // Default to USD
+      'US': '&#36;',   // HTML code for USD ($)
+      'IN': '&#8377;', // HTML code for Indian Rupee (₹)
+      'EU': '&#8364;', // HTML code for Euro (€)
+      'default': '&#36;' // Default to USD ($)
     };
 
     // Update the href attribute of the <a> tag (link + button)
