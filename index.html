@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta name="robots" content="noindex, nofollow">
+    <title>
+      Lorax Pro - Healthy &amp; Non-slip Barefoot Shoes (Unisex)
+		 &ndash; Hike Footwear
+    </title>
+    <link sizes="192x192" rel="shortcut icon" type="image/png" id="favicon" href="/img/hike.png"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+     <!-- Include FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="/js/main.js"></script>
+    <style>
+      .highlight {
+            color: red;
+        }
+        .rotating-text {
+            font-size: 1.25rem; /* Adjust size as needed */
+            color: white;
+            background-color: #494949; /* Background color to make text stand out */
+            padding: 0.5rem 0;
+        }
+        .rotating-text div {
+            display: none; /* Hide all phrases initially */
+        }
+        .swiper-container {
+            overflow: hidden; /* Prevents overflow */
+        }
+        .swiper-wrapper {
+            display: flex;
+        }
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            height: 20rem; 
+            width: 6rem; 
+            
+        }
+        .swiper-slide img {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: cover;
+            display: block;
+            border-radius: 10px;
+        }
+        .media-container {
+            max-width: 100%;
+            height: auto;
+        }
+        .answer {
+            display: none;
+        }
+        .answer.show {
+            display: block;
+        }
+        .social-medias {
+        display: flex;
+        gap: 2px; /* Adjusts spacing between the icons */
+        justify-content: center; /* Centers the icons horizontally */
+      }
+
+      .social-medias li {
+        list-style-type: none;
+      }
+
+      .social-medias a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px; 
+        height: 42px;
+        background-color: #77915d; /* Example background color */
+        border-radius: 50%;
+        color: white;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+
+      .social-medias a:hover {
+        background-color: #4d683e; /* Darker shade on hover */
+      }
+
+      .icon-svg {
+        width: 24px;
+        height: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Rotating Text Section -->
+    <div class="text-white sticky top-0 z-50">
+      <div class="rotating-text text-center text-lg">
+        <div><strong>UP TO 90% OFF!</strong></div>
+        <div><strong>30 days</strong> money back guarantee</div>
+        <div><strong>Free</strong> insured <strong>shipping </strong>on all orders!</div>
+    </div>
+  </div>
+  <main>
+  <!-- Navbar Section -->
+  <div class="bg-[#dedfdb] shadow-lg sticky top-[40px] z-50">
+    <!-- Navbar Section -->
+    <nav class="max-w-7xl mx-auto">
+      <div class="container px-4">
+          <!-- Desktop View -->
+          <div class="hidden md:flex items-center justify-between">
+              <!-- Logo -->
+              <div class="text-2xl mx-4 pb-2 font-bold"><img src="/img/hike-logo.webp" alt="main logo"></div>
+
+              <!-- Navigation Links -->
+              <div class="flex-grow flex justify-center space-x-4">
+                  <a href="#" class="text-gray-600 hover:text-gray-900">Home</a>
+                  <a href="#" class="text-gray-600 hover:text-gray-900">Help</a>
+                  <a href="#" class="text-gray-600 hover:text-gray-900">Blogs</a>
+              </div>
+
+              <!-- Icons -->
+              <div class="flex space-x-4">
+                  <a href="#" class="text-gray-600 hover:text-gray-900">
+                      <i class="fas fa-globe"></i>
+                  </a>
+                  <a href="#" class="text-gray-600 hover:text-gray-900">
+                      <i class="fas fa-shopping-cart"></i>
+                  </a>
+              </div>
+          </div>
+
+          <!-- Mobile View -->
+          <div class="md:hidden flex items-center justify-between">
+              <!-- Menu Button -->
+              <button id="menu-toggle" class="text-gray-600 hover:text-gray-900">
+                  <i class="fas fa-bars"></i> <!-- Hamburger icon -->
+              </button>
+
+              <!-- Logo (Center) -->
+              <div class="text-2xl mx-4 pb-2 font-bold"><img src="/img/hike-logo.webp" alt="main logo"></div>
+
+              <!-- Icons -->
+              <div class="flex space-x-4">
+                  <a href="#" class="text-gray-600 hover:text-gray-900">
+                      <i class="fas fa-globe"></i>
+                  </a>
+                  <a href="#" class="text-gray-600 hover:text-gray-900">
+                      <i class="fas fa-shopping-cart"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="md:hidden fixed inset-0 bg-white shadow-lg z-50 hidden">
+          <div class="flex flex-col items-center p-4 space-y-4">
+              <div class="text-2xl mx-4 pb-2 font-bold"><img src="/img/hike-logo.webp" alt="main logo"></div>
+              <button id="close-menu" class="text-gray-600 hover:text-gray-900 absolute top-4 right-4">
+                  <i class="fas fa-times"></i> <!-- Close icon -->
+              </button>
+              <ul class="space-y-4 w-full px-4">
+                  <li><a href="#" class="block text-gray-600 hover:text-gray-900 text-center">Home</a></li>
+                  <li><a href="#" class="block text-gray-600 hover:text-gray-900 text-center">Help</a></li>
+                  <li><a href="#" class="block text-gray-600 hover:text-gray-900 text-center">Blogs</a></li>
+              </ul>
+              <div class="flex justify-center space-x-4 py-4">
+                  <a href="#" class="text-gray-600 hover:text-gray-900">
+                      <i class="fas fa-globe"></i>
+                  </a>
+                  <a href="#" class="text-gray-600 hover:text-gray-900">
+                      <i class="fas fa-shopping-cart"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </nav>
+  </div>
+
+  <!-- first section -->
+  <div class="container mx-auto p-6">
+    <div class="flex flex-wrap lg:flex-nowrap">
+        <!-- Left Side: Product Images -->
+        <div class="w-full lg:w-1/2 flex flex-col items-center">
+            <div class="w-3/4">
+                <img id="mainImage" src="/img/main-image.webp" alt="Product Image" class="w-full rounded-lg shadow-md">
+            </div>
+            <div class="flex justify-center mt-4 space-x-4">
+                <img src="/img/main-image.webp" alt="Thumbnail 1" class="w-20 h-20 object-cover rounded-md cursor-pointer hover:opacity-75" onclick="changeImage('/img/main-image.webp')">
+                <img src="/img/main-img-2.webp" alt="Thumbnail 2" class="w-20 h-20 object-cover rounded-md cursor-pointer hover:opacity-75" onclick="changeImage('/img/main-img-2.webp')">
+                <img src="/img/main-img-3.webp" alt="Thumbnail 3" class="w-20 h-20 object-cover rounded-md cursor-pointer hover:opacity-75" onclick="changeImage('/img/main-img-3.webp')">
+                <img src="/img/main-img-4.webp" alt="Thumbnail 4" class="w-20 h-20 object-cover rounded-md cursor-pointer hover:opacity-75" onclick="changeImage('/img/main-img-4.webp')">
+                <img src="/img/main-img-5.webp" alt="Thumbnail 5" class="w-20 h-20 object-cover rounded-md cursor-pointer hover:opacity-75" onclick="changeImage('/img/main-img-5.webp')">
+                <img src="/img/main-img-6.webp" alt="Thumbnail 6" class="w-20 h-20 object-cover rounded-md cursor-pointer hover:opacity-75" onclick="changeImage('/img/main-img-6.webp')">
+            </div>
+        </div>
+        <!-- Right Side: Product Details -->
+        <div class="w-full lg:w-1/2 mt-6 lg:mt-0 lg:pl-12">
+            <div class="w-full mt-6 lg:mt-0">
+              <!-- Autoer Pic and Love Count -->
+              <div class="flex items-center mb-4">
+                  <img src="/img/user_Icon_1.webp" alt="Autoer" class="w-8 h-8 rounded-full border-2 border-gray-300 mr-2">
+                  <span class="font-bold text-blue-600">Andrew P. </span>
+                  <i class="fas fa-check-circle text-blue-400 ml-2"></i>
+                  <span class="ml-2 font-bold">565,000+ Customers </span>
+                  <span class="ml-2">love our shoes.</span> 
+              </div>
+              <!-- Product Name -->
+              <h2 class="text-2xl font-bold text-gray-800 mb-4">Lorax Pro - Healthy & Non-slip Barefoot Shoes (Unisex)</h2>
+              <!-- Features with Checkmarks -->
+              <div class="mb-4">
+                  <div class="flex items-center mb-2">
+                      <i class="fas fa-check-circle text-green-600 mr-2"></i>
+                      <span>Relieves pressure on feet and joints</span>
+                  </div>
+                  <div class="flex items-center mb-2">
+                      <i class="fas fa-check-circle text-green-600 mr-2"></i>
+                      <span>High-quality material</span>
+                  </div>
+              </div>
+             <!-- Shipping Info -->
+             <div class="flex items-center mb-4">
+              <i class="fas fa-truck text-gray-600 mr-2"></i>
+              <span>Free shipping</span>
+          </div>
+            <!-- Price -->
+            <div class="my-4 flex gap-4">
+              <p class="text-2xl font-bold text-green-600">&#8364;9.9</p>
+              <p class="text-xl text-gray-500 line-through">&#8364;99.90</p>
+          </div>
+            <!-- Sale and Stock Info -->
+            <div class="mb-4">
+              <p class="mb-4" >we only have a few left in stock!</p>
+          </div>
+          <form>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="mb-4">
+                <label for="color" class="block text-gray-700">Color:</label>
+                <select id="color" name="color" class="mt-1 block w-full bg-gray-100 border border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500">
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Green</option>
+                </select>
+              </div>
+              <div class="mb-4">
+                <label for="size" class="block text-gray-700">Size:</label>
+                <select id="size" name="size" class="mt-1 block w-full bg-gray-100 border border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select>
+            </div>
+            </div>
+            <div class="mb-4">
+                <label for="quantity" class="block text-gray-700">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1" class="mt-1 block w-full bg-gray-100 border border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500">
+            </div>
+            <!-- Viewers Info -->
+            <!-- Counter Display -->
+              <div class="flex items-center mb-4 justify-center">
+                <i class="fas fa-hourglass-half text-gray-600 mr-2"></i>
+                <span><span class="font-bold">9</span> pairs left in stock.</span>
+            </div>
+            <!-- Add to Cart Button -->
+            <a href="https://quickloadexpress.com/c?p=3128&o=1944&s2=taboola&s6=Lorax Pro - Healthy-Non-slip Barefoot Shoes&s7=https://hike-footwearz.com/img/main-image.webp">
+            <button type="button" class="flex items-center justify-center w-full  px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700">
+                <i class="fas fa-cart-plus mr-2 text-center"></i>
+                Buy it Now
+            </button>
+          </a>
+        </form>
+        </div>
+    </div>
+</div>
+  <!-- first section end -->
+  <!-- second section start -->
+  <div class="bg-[#f8f8f8]">
+    <div class="md:mt-10">
+      <div class="flex flex-wrap md:mt-10">
+        <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-4 flex flex-col items-center justify-center text-center">
+          <img class="object-contain w-40 h-40 " src="/img/Hike_Benefits_Icon_10.webp" alt="Thin Soles">
+          <h2 class="text-xl font-semibold mb-2">Thin Soles:</h2>
+          <p class="text-gray-700">Experience a real barefoot feeling and natural connection thanks to the ultra-thin soles.</p>
+        </div>
+        <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-4 flex flex-col items-center justify-center text-center">
+          <img class="object-contain w-40 h-40" src="/img/icon-1.png" alt="Thin Soles">
+          <h2 class="text-xl text-center font-semibold mb-2">Wide Toe Box</h2>
+          <p class="text-gray-700 text-center">The wide toe box provides your toes the space they need and allows them to relax in their natural position.</p>
+        </div>
+        <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-4 flex flex-col items-center justify-center text-center">
+          <img class="object-contain w-40 h-40 " src="/img/icon-2.png" alt="Thin Soles">
+          <h2 class="text-xl text-center font-semibold mb-2">Natural Comfort</h2>
+          <p class="text-gray-700 text-center">Natural comfort provides the support and foundation for an upright posture and prevents knee, hip, and back pain.</p>
+        </div>
+        <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-4 flex flex-col items-center justify-center text-center">
+          <img class="object-contain w-40 h-40 " src="/img/icon-3.png" alt="Thin Soles">
+          <h2 class="text-xl text-center font-semibold mb-2">Flexible</h2>
+          <p class="text-gray-700 text-center">The soft, flexible, and thin soles give your feet an unlimited range of motion and ensure a healthy walking experience.</p>
+        </div>
+    </div>
+    </div>
+  </div>
+  
+  <!-- second section end -->
+  <!-- 3rd section ster -->
+  <div class=" bg-white mt-4 md:mt-8">
+    <h2 class="text-2xl font-bold text-center mb-6">Customers love our shoes!</h2>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="/img/coul-1.jpg" alt="Image 1" class="w-full h-auto"></div>
+            <div class="swiper-slide"><img src="/img/cols-2.jpg" alt="Image 2" class="w-full h-auto"></div>
+            <div class="swiper-slide"><img src="/img/cosl-3.jpg" alt="Image 3" class="w-full h-auto"></div>
+            <div class="swiper-slide"><img src="/img/cousl-4.jpg" alt="Image 4" class="w-full h-auto"></div>
+            <div class="swiper-slide"><img src="/img/cousl-5.jpg" alt="Image 5" class="w-full h-auto"></div>
+            <div class="swiper-slide"><img src="/img/cousl-6.jpg" alt="Image 6" class="w-full h-auto"></div>
+            <div class="swiper-slide"><img src="/img/cousl-7.jpg" alt="Image 7" class="w-full h-auto"></div>
+            <div class="swiper-slide"><img src="/img/cousl-8.jpg" alt="Image 8" class="w-full h-auto"></div>
+        </div>
+        <!-- Add Pagination -->
+    </div>
+  </div>
+    <!-- 3rd section end -->
+    <!-- 4th section start -->
+    <section class="flex flex-col lg:flex-row items-center lg:items-start md:mt-8 mt-4 mx-8">
+      <!-- Left side: GIF or MP4 -->
+      <div class="flex-1 mb-6 lg:mb-0 py-16 mx-14 flex items-center">
+        <video class="media rounded-lg " muted="" loop="" autoplay="" playsinline="">
+          <source src="/img/video-play.mp4">
+        </source></video>
+      </div>
+
+      <!-- Right side: Text content -->
+      <div class="flex-1 flex items-center">
+        <div class="mx-auto pt-2 lg:pt-48">
+          <h2 class="text-3xl font-bold mb-4">Put an end to stiff and immobile shoes!</h2>
+          <p class="text-gray-700 mb-4">Stiff soles and immobile shoes can cause painful symptoms in your nervous system and do not support your natural anatomy during daily activities. <strong>The most natural way to walk is barefoot.</strong></p>
+          <p class="text-gray-700">The ultra-light and flexible 4mm thin sole allows a natural gait, <strong> promoting </strong>the <strong> natural alignment </strong> of your feet. This effectively prevents common discomforts in your knees, hips, back, ankles, and feet.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- 4th section end -->
+  <!-- 5th section start -->
+  <section class="flex flex-col lg:flex-row items-center lg:items-start md:mt-2 mt-2 mx-12">
+    <!-- Left side: content -->
+    <div class="flex-1 flex items-center">
+      <div class="mx-auto mx-24 pt-2 lg:pt-48">
+        <h2 class="text-3xl font-bold mb-4">Discover natural freedom of movement</h2>
+        <p class="text-gray-700 mb-4">With Hike-Lorax barefoot shoes, <strong>you're choosing comfort, healthy feet, and a natural walking experience.</strong> These unique shoes give you the feeling of walking barefoot while <strong>providing protection</strong> and support.</p>
+        <p class="text-gray-700">Our barefoot shoes are specially designed to give your feet room to breathe and move, <strong>just as nature intended</strong>. Not only do they enhance the strength and flexibility of your arches, but they also align your body for <strong>natural stability and balance</strong>.</p>
+      </div>
+    </div>
+   
+
+    <!-- Right side: image -->
+    <div class="flex-1 mb-6 lg:mb-0 py-10 mx-24 md:mr-8 flex items-center ">
+      <img class="media-container rounded-lg" src="/img/main-img-3.webp" alt="Description of img">
+    </div>
+</section>
+
+<!-- 5th section end -->
+<!-- 6th section start -->
+<section class="flex flex-col lg:flex-row items-center lg:items-start md:mt-8 mt-4 mx-8">
+  <!-- Left side: GIF or MP4 -->
+  <div class="flex-1 mb-6 lg:mb-0 py-16 flex items-center">
+    <img class="media-container rounded-lg" src="/img/side-img-1.webp" alt="Description of img">
+  </div>
+
+  <!-- Right side: Text content -->
+  <div class="flex-1 flex items-center">
+    <div class=" pt-2 lg:pt-48 px-8 mx-8">
+      <h2 class="text-3xl font-bold mb-4">Recommended by Orthopedists</h2>
+      <p class="text-gray-700 mb-4">Our Hike Footwear shoes are expertly crafted for daily wear, work, and outdoor adventures, ensuring unmatched comfort and support. Recommended by orthopedic and podiatry specialists for their ergonomic design, they are perfect for improving foot health and reducing pain. Step with confidence knowing you're in good hands - both for your adventures and for your foot health.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 6th section end -->
+
+<!-- 7th section start -->
+<section class="flex flex-col lg:flex-row items-center lg:items-start md:mt-2 mt-2 mx-12">
+  <!-- Left side: content -->
+  <div class="flex-1 flex items-center">
+    <div class="mx-auto mx-24 pt-2">
+      <h2 class="text-3xl font-bold mb-4">Optimal Comfort – All Day Long</h2>
+      <p class="text-gray-700 mb-4"><strong>✓ Breathable Material - </strong>Let your feet breathe and relieve your joints. This is crucial in reducing irritation and discomfort associated with conditions like neuropathy and arthritis.</p>
+      <p class="text-gray-700 mb-4"><strong>✓ Natural Gait </strong>- Barefoot shoes promote a natural walking style and strengthen the muscles in your feet and legs while preventing body aches. This benefits plantar fasciitis sufferers by reducing foot aches and promoting healing.</p>
+      <p class="text-gray-700 mb-4">✓ <strong>Stimulate Blood Circulation:</strong> The direct contact of feet with the ground in barefoot shoes enhances blood circulation in the feet and legs. This not only contributes to overall healthier circulation and helps in reducing fatigue, but it's also crucial for managing neuropathy symptoms.</p>
+      <p class="text-gray-700 mb-4"><strong>✓ Wide Toe Box - </strong>The wide toe box combined with the flexibility of barefoot shoes allows the toes to move and spread freely, promoting foot strength and flexibility.</p>
+      <p class="text-gray-700"><strong>✓ Multi-Functional</strong> - The lightweight and breathable nature of Lorax barefoot shoes make them an ideal choice for daily wear, providing comfort and support for a range of foot health conditions.</p>
+    </div>
+  </div>
+ 
+
+  <!-- Right side: image -->
+  <div class="flex-1 mb-6 lg:mb-0 py-10 mx-24 md:mr-8 flex items-center ">
+    <img class="media-container rounded-lg" src="/img/side-img-2.webp" alt="Description of img">
+  </div>
+</section>
+
+<!-- 7th section end -->
+
+<div class="mb-4 border border-b-1 border-gray-200"></div>
+
+<!-- 8th section start -->
+<section>
+  <h2 class="text-2xl font-bold mb-6 text-center">Frequently Asked Questions</h2>
+  <div id="faq-container">
+      <!-- Question 1 -->
+      <div class="mb-4 mx-auto lg:mx-24">
+        <button class="faq-question text-left w-full font-semibold py-2 px-4 bg-gray-200 rounded-md focus:outline-none flex items-center justify-between" onclick="toggleAnswer(0)">
+          Does Hike Footwear offer any guarantees?
+            <i class="faq-icon fas fa-plus"></i>
+        </button>
+        <div class="answer px-4 py-2 bg-gray-100 rounded-md mt-2">
+            <p>Hike footwear always puts our customers first. You have the right to return the product within 30 days of receipt. We are available 24/7 to answer all your questions and we offer FREE shipping on all our products.</p>
+        </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-4 mx-auto lg:mx-24">
+        <button class="faq-question text-left w-full font-semibold py-2 px-4 bg-gray-200 rounded-md focus:outline-none flex items-center justify-between" onclick="toggleAnswer(1)">
+          What are the advantages of barefoot shoes?
+            <i class="faq-icon fas fa-plus"></i>
+        </button>
+        <div class="answer px-4 py-2 bg-gray-100 rounded-md mt-2">
+            <p>Barefoot shoes promote the natural rolling of the foot, strengthen the foot muscles, and contribute to better posture and balance.</p>
+        </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="mb-4 mx-auto lg:mx-24">
+        <button class="faq-question text-left w-full font-semibold py-2 px-4 bg-gray-200 rounded-md focus:outline-none flex items-center justify-between" onclick="toggleAnswer(2)">
+          Can barefoot shoes relieve back and joint pain?
+            <i class="faq-icon fas fa-plus"></i>
+        </button>
+        <div class="answer px-4 py-2 bg-gray-100 rounded-md mt-2">
+            <p>Yes, wearing barefoot shoes can relieve joint stress and reduce back pain because the shoes allow the foot to roll naturally.</p>
+        </div>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="mb-4 mx-auto lg:mx-24">
+        <button class="faq-question text-left w-full font-semibold py-2 px-4 bg-gray-200 rounded-md focus:outline-none flex items-center justify-between" onclick="toggleAnswer(3)">
+          For what activities can I use the barefoot shoe?
+            <i class="faq-icon fas fa-plus"></i>
+        </button>
+        <div class="answer px-4 py-2 bg-gray-100 rounded-md mt-2">
+            <p>Barefoot shoes are suitable for a variety of activities, including running, fitness, yoga, or hiking. Because of their comfort and health benefits, many people wear them every day.</p>
+        </div>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="mb-4 mx-auto lg:mx-24">
+        <button class="faq-question text-left w-full font-semibold py-2 px-4 bg-gray-200 rounded-md focus:outline-none flex items-center justify-between" onclick="toggleAnswer(4)">
+          Is it possible to wear socks in barefoot shoes?
+            <i class="faq-icon fas fa-plus"></i>
+        </button>
+        <div class="answer px-4 py-2 bg-gray-100 rounded-md mt-2">
+            <p>Yes, but that is entirely up to you. Even with socks, you can enjoy the natural rolling of the feet! However, we recommend wearing thin socks to experience the maximum benefits of the foot’s natural roll and contact with the ground.</p>
+        </div>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="mb-4 mx-auto lg:mx-24">
+        <button class="faq-question text-left w-full font-semibold py-2 px-4 bg-gray-200 rounded-md focus:outline-none flex items-center justify-between" onclick="toggleAnswer(5)">
+          What should I do if the shoes are not comfortable for me?
+            <i class="faq-icon fas fa-plus"></i>
+        </button>
+        <div class="answer px-4 py-2 bg-gray-100 rounded-md mt-2">
+            <p>If the received product is not to your satisfaction for personal reasons, you have the right to contact us within 30 days of receipt. We will offer a quick and easy solution by giving you the option to receive a new product or a 100% refund.</p>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- 8th section end -->
+<!-- 9th section start -->
+<section class="max-w-5xl mx-auto text-center">
+  <h2 class="text-2xl font-bold mb-4">Check Out Our Videos</h2>
+  <p class="text-lg text-gray-600 mb-8">Watch these videos to learn more about our products and features</p>
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Video 1 -->
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/Sbjl-TkFa-w?si=QmCnsAy6-BwDUnR_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      
+      <!-- Video 2 -->
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/48y0tFJ2P1U?si=1u4MgEesa99rKgH2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+  </div>
+</section>
+<!-- 9th section end -->
+<!-- 10th section start -->
+<div>
+  <div class="md:mt-10">
+    <div class="flex flex-wrap md:mt-10">
+      <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4 flex flex-col items-center justify-center text-center">
+        <img class="object-contain w-12 h-12 my-4 " src="/img/icon-b-1.webp" alt="Thin Soles">
+        <h2 class="text-xl font-semibold mb-2">Free Delivery at Hike!</h2>
+        <p class="text-gray-700">We offer <strong>free</strong> world-wide shipping on all orders</p>
+      </div>
+      <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4 flex flex-col items-center justify-center text-center">
+        <img class="object-contain w-12 h-12 my-4" src="/img/icon-b-2.png" alt="Thin Soles">
+        <h2 class="text-xl text-center font-semibold mb-2">100% Secure Checkout</h2>
+        <p class="text-gray-700 text-center">Secure payment with Paypal or Creditcard with buyer protection!</p>
+      </div>
+      <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4 flex flex-col items-center justify-center text-center">
+        <img class="object-contain w-12 h-12 my-4 " src="/img/icon-b-3.png" alt="Thin Soles">
+        <h2 class="text-xl text-center font-semibold mb-2">565,000+ people choose HIKE in 2024</h2>
+        <p class="text-gray-700 text-center"> <strong>HF</strong> - Your Path To Healthy Freedom</p>
+      </div>
+  </div>
+  </div>
+</div>
+
+<!-- 10th section end -->
+  </main>
+<!-- footer start -->
+<footer class="bg-[#77915d] text-white pt-12">
+  <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 px-6">
+
+      <!-- Column 1: Logo & Info -->
+      <div class="col-span-2">
+          <img src="/img/logo-f.webp" alt="Hike Logo" class="mb-4 w-32 h-auto">
+          <p>At Hike, we prioritize a healthier foot environment. Our footwear stimulates the natural alignment of your feet, preventing and reducing foot pain and deformities. When you choose Hike, you're making a lifelong commitment to the well-being of your feet! 👣</p>
+          <p class="mt-4 flex items-center">
+              <i class="fas fa-envelope mr-2"></i> info@hike-footwear.com
+          </p>
+          <p class="mt-2 flex items-center">
+              <i class="fas fa-phone-alt mr-2"></i> +1 (332) 334-6932
+          </p>
+      </div>
+
+      <!-- Column 2: Newsletter -->
+      <div class="col-span-1">
+          <h2 class="text-lg font-bold mb-4">Newsletter</h2>
+          <p class="mb-4">Be the first to access new product drops, exclusive promotions, and exciting giveaways!</p>
+          <div class="flex items-center">
+              <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-l-md w-full focus:outline-none">
+              <button class="bg-gray-800 text-white px-4 py-2 rounded-r-md flex items-center">
+                  <span>Subscribe</span>
+                  <i class="fas fa-paper-plane ml-2"></i>
+              </button>
+          </div>
+      </div>
+
+      <!-- Column 3: Information -->
+      <div class="col-span-1">
+          <h2 class="text-lg font-bold mb-4">Information</h2>
+          <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">Support Centrum</a></li>
+              <li><a href="#" class="hover:underline">FAQ</a></li>
+              <li><a href="#" class="hover:underline">Blogs</a></li>
+              <li><a href="#" class="hover:underline">Size Measurement Guide</a></li>
+              <li><a href="#" class="hover:underline">Track Order</a></li>
+              <li><a href="#" class="hover:underline">Customer Video Reviews</a></li>
+              <li><a href="#" class="hover:underline">Wholesale / B2B</a></li>
+              <li><a href="#" class="hover:underline">Refer a Friend</a></li>
+              <li><a href="#" class="hover:underline">WeForest Donations</a></li>
+          </ul>
+      </div>
+
+      <!-- Column 4: More Information -->
+      <div class="col-span-1">
+          <h2 class="text-lg font-bold mb-4">More Information</h2>
+          <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">About Us</a></li>
+              <li><a href="#" class="hover:underline">Terms and Conditions</a></li>
+              <li><a href="#" class="hover:underline">Return Policy</a></li>
+              <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+              <li><a href="#" class="hover:underline">Shipping Policy</a></li>
+              <li><a href="#" class="hover:underline">Payment Policy</a></li>
+          </ul>
+      </div>
+  </div>
+
+  <div class="my-8 border border-b-1 border-gray-50"></div>
+  <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 px-6 py-2 bottom-0 ">
+    <div>
+      <i class="fas fa-globe"></i> Copyright © 2024 Hike Footwear
+    </div>
+    <div>
+      <ul class="social-medias inline-list"><li>
+        <a class="" target="_blank" href="https://www.facebook.com/hikefootwearusa" title="Hike Footwear on Facebook"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-svg facebook-svg" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+      </li><li>
+        <a class="" target="_blank" href="https://www.pinterest.com/hikefootwear/" title="Hike Footwear on Pinterest"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-svg pinterest-svg" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg></a>
+      </li><li>
+        <a class="" target="_blank" href="https://www.instagram.com/hike.footwear/" title="Hike Footwear on Instagram"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-svg instagram-svg" fill="currentColor"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+      </li><li>
+        <a class="" target="_blank" href="https://youtube.com/@HikeFootwear" title="Hike Footwear on Youtube"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-svg youtube-svg" fill="currentColor"><path d="M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"/></svg></a>
+      </li><li>
+        <a class="" target="_blank" href="https://www.tiktok.com/@hikefootwear" title="Hike Footwear on Tiktok"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-svg tiktok-svg" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+      </li>
+    </ul>
+    </div>
+    <div class="flex justify-center space-x-1">
+      <svg class="payment-list__item"  xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-american_express"><title id="pi-american_express">American Express</title><g fill="none"><path fill="#000" d="M35,0 L3,0 C1.3,0 0,1.3 0,3 L0,21 C0,22.7 1.4,24 3,24 L35,24 C36.7,24 38,22.7 38,21 L38,3 C38,1.3 36.6,0 35,0 Z" opacity=".07"></path><path fill="#006FCF" d="M35,1 C36.1,1 37,1.9 37,3 L37,21 C37,22.1 36.1,23 35,23 L3,23 C1.9,23 1,22.1 1,21 L1,3 C1,1.9 1.9,1 3,1 L35,1"></path><path fill="#FFF" d="M8.971,10.268 L9.745,12.144 L8.203,12.144 L8.971,10.268 Z M25.046,10.346 L22.069,10.346 L22.069,11.173 L24.998,11.173 L24.998,12.412 L22.075,12.412 L22.075,13.334 L25.052,13.334 L25.052,14.073 L27.129,11.828 L25.052,9.488 L25.046,10.346 L25.046,10.346 Z M10.983,8.006 L14.978,8.006 L15.865,9.941 L16.687,8 L27.057,8 L28.135,9.19 L29.25,8 L34.013,8 L30.494,11.852 L33.977,15.68 L29.143,15.68 L28.065,14.49 L26.94,15.68 L10.03,15.68 L9.536,14.49 L8.406,14.49 L7.911,15.68 L4,15.68 L7.286,8 L10.716,8 L10.983,8.006 Z M19.646,9.084 L17.407,9.084 L15.907,12.62 L14.282,9.084 L12.06,9.084 L12.06,13.894 L10,9.084 L8.007,9.084 L5.625,14.596 L7.18,14.596 L7.674,13.406 L10.27,13.406 L10.764,14.596 L13.484,14.596 L13.484,10.661 L15.235,14.602 L16.425,14.602 L18.165,10.673 L18.165,14.603 L19.623,14.603 L19.647,9.083 L19.646,9.084 Z M28.986,11.852 L31.517,9.084 L29.695,9.084 L28.094,10.81 L26.546,9.084 L20.652,9.084 L20.652,14.602 L26.462,14.602 L28.076,12.864 L29.624,14.602 L31.499,14.602 L28.987,11.852 L28.986,11.852 Z"></path></g></svg>
+
+          
+            <svg class="payment-list__item"  version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" x="0" y="0" width="38" height="24" viewBox="0 0 165.521 105.965" xml:space="preserve" aria-labelledby="pi-apple_pay"><title id="pi-apple_pay">Apple Pay</title><path fill="#000" d="M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z"></path><path fill="#FFF" d="M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.793.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.511-1.971.645-.881.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a74.993 74.993 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.646-1.985c-.156-.863-.2-1.788-.22-2.578a66.088 66.088 0 0 1-.02-1.355l-.003-1.327V14.474l.002-1.325a66.7 66.7 0 0 1 .02-1.357c.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.623a6.386 6.386 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.646c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875"></path><g><g><path fill="#000" d="M43.508 35.77c1.404-1.755 2.356-4.112 2.105-6.52-2.054.102-4.56 1.355-6.012 3.112-1.303 1.504-2.456 3.959-2.156 6.266 2.306.2 4.61-1.152 6.063-2.858"></path><path fill="#000" d="M45.587 39.079c-3.35-.2-6.196 1.9-7.795 1.9-1.6 0-4.049-1.8-6.698-1.751-3.447.05-6.645 2-8.395 5.1-3.598 6.2-.95 15.4 2.55 20.45 1.699 2.5 3.747 5.25 6.445 5.151 2.55-.1 3.549-1.65 6.647-1.65 3.097 0 3.997 1.65 6.696 1.6 2.798-.05 4.548-2.5 6.247-5 1.95-2.85 2.747-5.6 2.797-5.75-.05-.05-5.396-2.101-5.446-8.251-.05-5.15 4.198-7.6 4.398-7.751-2.399-3.548-6.147-3.948-7.447-4.048"></path></g><g><path fill="#000" d="M78.973 32.11c7.278 0 12.347 5.017 12.347 12.321 0 7.33-5.173 12.373-12.529 12.373h-8.058V69.62h-5.822V32.11h14.062zm-8.24 19.807h6.68c5.07 0 7.954-2.729 7.954-7.46 0-4.73-2.885-7.434-7.928-7.434h-6.706v14.894z"></path><path fill="#000" d="M92.764 61.847c0-4.809 3.665-7.564 10.423-7.98l7.252-.442v-2.08c0-3.04-2.001-4.704-5.562-4.704-2.938 0-5.07 1.507-5.51 3.82h-5.252c.157-4.86 4.731-8.395 10.918-8.395 6.654 0 10.995 3.483 10.995 8.89v18.663h-5.38v-4.497h-.13c-1.534 2.937-4.914 4.782-8.579 4.782-5.406 0-9.175-3.222-9.175-8.057zm17.675-2.417v-2.106l-6.472.416c-3.64.234-5.536 1.585-5.536 3.95 0 2.288 1.975 3.77 5.068 3.77 3.95 0 6.94-2.522 6.94-6.03z"></path><path fill="#000" d="M120.975 79.652v-4.496c.364.051 1.247.103 1.715.103 2.573 0 4.029-1.09 4.913-3.899l.52-1.663-9.852-27.293h6.082l6.863 22.146h.13l6.862-22.146h5.927l-10.216 28.67c-2.34 6.577-5.017 8.735-10.683 8.735-.442 0-1.872-.052-2.261-.157z"></path></g></g></svg>
+
+          
+            <svg class="payment-list__item"  viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-diners_club"><title id="pi-diners_club">Diners Club</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M12 12v3.7c0 .3-.2.3-.5.2-1.9-.8-3-3.3-2.3-5.4.4-1.1 1.2-2 2.3-2.4.4-.2.5-.1.5.2V12zm2 0V8.3c0-.3 0-.3.3-.2 2.1.8 3.2 3.3 2.4 5.4-.4 1.1-1.2 2-2.3 2.4-.4.2-.4.1-.4-.2V12zm7.2-7H13c3.8 0 6.8 3.1 6.8 7s-3 7-6.8 7h8.2c3.8 0 6.8-3.1 6.8-7s-3-7-6.8-7z" fill="#3086C8"></path></svg>
+          
+            <svg class="payment-list__item"  viewBox="0 0 38 24" width="38" height="24" role="img" aria-labelledby="pi-discover" fill="none" xmlns="http://www.w3.org/2000/svg"><title id="pi-discover">Discover</title><path fill="#000" opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z" fill="#fff"></path><path d="M3.57 7.16H2v5.5h1.57c.83 0 1.43-.2 1.96-.63.63-.52 1-1.3 1-2.11-.01-1.63-1.22-2.76-2.96-2.76zm1.26 4.14c-.34.3-.77.44-1.47.44h-.29V8.1h.29c.69 0 1.11.12 1.47.44.37.33.59.84.59 1.37 0 .53-.22 1.06-.59 1.39zm2.19-4.14h1.07v5.5H7.02v-5.5zm3.69 2.11c-.64-.24-.83-.4-.83-.69 0-.35.34-.61.8-.61.32 0 .59.13.86.45l.56-.73c-.46-.4-1.01-.61-1.62-.61-.97 0-1.72.68-1.72 1.58 0 .76.35 1.15 1.35 1.51.42.15.63.25.74.31.21.14.32.34.32.57 0 .45-.35.78-.83.78-.51 0-.92-.26-1.17-.73l-.69.67c.49.73 1.09 1.05 1.9 1.05 1.11 0 1.9-.74 1.9-1.81.02-.89-.35-1.29-1.57-1.74zm1.92.65c0 1.62 1.27 2.87 2.9 2.87.46 0 .86-.09 1.34-.32v-1.26c-.43.43-.81.6-1.29.6-1.08 0-1.85-.78-1.85-1.9 0-1.06.79-1.89 1.8-1.89.51 0 .9.18 1.34.62V7.38c-.47-.24-.86-.34-1.32-.34-1.61 0-2.92 1.28-2.92 2.88zm12.76.94l-1.47-3.7h-1.17l2.33 5.64h.58l2.37-5.64h-1.16l-1.48 3.7zm3.13 1.8h3.04v-.93h-1.97v-1.48h1.9v-.93h-1.9V8.1h1.97v-.94h-3.04v5.5zm7.29-3.87c0-1.03-.71-1.62-1.95-1.62h-1.59v5.5h1.07v-2.21h.14l1.48 2.21h1.32l-1.73-2.32c.81-.17 1.26-.72 1.26-1.56zm-2.16.91h-.31V8.03h.33c.67 0 1.03.28 1.03.82 0 .55-.36.85-1.05.85z" fill="#231F20"></path><path d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint0_linear)"></path><path opacity=".65" d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint1_linear)"></path><path d="M36.57 7.506c0-.1-.07-.15-.18-.15h-.16v.48h.12v-.19l.14.19h.14l-.16-.2c.06-.01.1-.06.1-.13zm-.2.07h-.02v-.13h.02c.06 0 .09.02.09.06 0 .05-.03.07-.09.07z" fill="#231F20"></path><path d="M36.41 7.176c-.23 0-.42.19-.42.42 0 .23.19.42.42.42.23 0 .42-.19.42-.42 0-.23-.19-.42-.42-.42zm0 .77c-.18 0-.34-.15-.34-.35 0-.19.15-.35.34-.35.18 0 .33.16.33.35 0 .19-.15.35-.33.35z" fill="#231F20"></path><path d="M37 12.984S27.09 19.873 8.976 23h26.023a2 2 0 002-1.984l.024-3.02L37 12.985z" fill="#F48120"></path><defs><linearGradient id="pi-paint0_linear" x1="21.657" y1="12.275" x2="19.632" y2="9.104" gradientUnits="userSpaceOnUse"><stop stop-color="#F89F20"></stop><stop offset=".25" stop-color="#F79A20"></stop><stop offset=".533" stop-color="#F68D20"></stop><stop offset=".62" stop-color="#F58720"></stop><stop offset=".723" stop-color="#F48120"></stop><stop offset="1" stop-color="#F37521"></stop></linearGradient><linearGradient id="pi-paint1_linear" x1="21.338" y1="12.232" x2="18.378" y2="6.446" gradientUnits="userSpaceOnUse"><stop stop-color="#F58720"></stop><stop offset=".359" stop-color="#E16F27"></stop><stop offset=".703" stop-color="#D4602C"></stop><stop offset=".982" stop-color="#D05B2E"></stop></linearGradient></defs></svg>
+          
+            <svg class="payment-list__item"  xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-google_pay"><title id="pi-google_pay">Google Pay</title><path d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#000" opacity=".07"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32" fill="#FFF"></path><path d="M18.093 11.976v3.2h-1.018v-7.9h2.691a2.447 2.447 0 0 1 1.747.692 2.28 2.28 0 0 1 .11 3.224l-.11.116c-.47.447-1.098.69-1.747.674l-1.673-.006zm0-3.732v2.788h1.698c.377.012.741-.135 1.005-.404a1.391 1.391 0 0 0-1.005-2.354l-1.698-.03zm6.484 1.348c.65-.03 1.286.188 1.778.613.445.43.682 1.03.65 1.649v3.334h-.969v-.766h-.049a1.93 1.93 0 0 1-1.673.931 2.17 2.17 0 0 1-1.496-.533 1.667 1.667 0 0 1-.613-1.324 1.606 1.606 0 0 1 .613-1.336 2.746 2.746 0 0 1 1.698-.515c.517-.02 1.03.093 1.49.331v-.208a1.134 1.134 0 0 0-.417-.901 1.416 1.416 0 0 0-.98-.368 1.545 1.545 0 0 0-1.319.717l-.895-.564a2.488 2.488 0 0 1 2.182-1.06zM23.29 13.52a.79.79 0 0 0 .337.662c.223.176.5.269.785.263.429-.001.84-.17 1.146-.472.305-.286.478-.685.478-1.103a2.047 2.047 0 0 0-1.324-.374 1.716 1.716 0 0 0-1.03.294.883.883 0 0 0-.392.73zm9.286-3.75l-3.39 7.79h-1.048l1.281-2.728-2.224-5.062h1.103l1.612 3.885 1.569-3.885h1.097z" fill="#5F6368"></path><path d="M13.986 11.284c0-.308-.024-.616-.073-.92h-4.29v1.747h2.451a2.096 2.096 0 0 1-.9 1.373v1.134h1.464a4.433 4.433 0 0 0 1.348-3.334z" fill="#4285F4"></path><path d="M9.629 15.721a4.352 4.352 0 0 0 3.01-1.097l-1.466-1.14a2.752 2.752 0 0 1-4.094-1.44H5.577v1.17a4.53 4.53 0 0 0 4.052 2.507z" fill="#34A853"></path><path d="M7.079 12.05a2.709 2.709 0 0 1 0-1.735v-1.17H5.577a4.505 4.505 0 0 0 0 4.075l1.502-1.17z" fill="#FBBC04"></path><path d="M9.629 8.44a2.452 2.452 0 0 1 1.74.68l1.3-1.293a4.37 4.37 0 0 0-3.065-1.183 4.53 4.53 0 0 0-4.027 2.5l1.502 1.171a2.715 2.715 0 0 1 2.55-1.875z" fill="#EA4335"></path></svg>
+
+          
+            <svg class="payment-list__item"  viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-maestro"><title id="pi-maestro">Maestro</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#00A2E5" cx="23" cy="12" r="7"></circle><path fill="#7375CF" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg>
+          
+            <svg class="payment-list__item"  viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#F79E1B" cx="23" cy="12" r="7"></circle><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg>
+          
+            <svg  class="payment-list__item" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-paypal"><title id="pi-paypal">PayPal</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path fill="#003087" d="M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z"></path><path fill="#3086C8" d="M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z"></path><path fill="#012169" d="M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z"></path></svg>
+          
+            <svg class="payment-list__item"  xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-shopify_pay"><title id="pi-shopify_pay">Shop Pay</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#000"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z" fill="#5A31F4"></path><path d="M21.382 9.713c0 1.668-1.177 2.858-2.821 2.858h-1.549a.133.133 0 00-.12.08.127.127 0 00-.01.049v2.192a.129.129 0 01-.13.129h-1.084a.13.13 0 01-.13-.13V6.986a.127.127 0 01.08-.12.129.129 0 01.05-.01h2.9c1.637 0 2.814 1.19 2.814 2.858v-.001zm-1.352 0c0-.958-.658-1.658-1.55-1.658h-1.468a.13.13 0 00-.13.13v3.05a.127.127 0 00.038.092.129.129 0 00.092.038h1.468c.892.005 1.55-.695 1.55-1.652zm1.674 3.791a1.527 1.527 0 01.647-1.317c.423-.316 1.084-.48 2.055-.514l1.033-.036v-.303c0-.607-.41-.863-1.068-.863-.658 0-1.075.231-1.17.61a.127.127 0 01-.125.09h-1.022a.13.13 0 01-.126-.092.125.125 0 01-.004-.055c.152-.898.904-1.58 2.494-1.58 1.692 0 2.303.783 2.303 2.276v3.172a.13.13 0 01-.132.129h-1.03a.13.13 0 01-.13-.13v-.236a.096.096 0 00-.061-.091.1.1 0 00-.107.022c-.31.334-.808.575-1.607.575-1.175 0-1.95-.607-1.95-1.657zm3.735-.687v-.246l-1.339.07c-.705.036-1.115.326-1.115.816 0 .444.376.69 1.034.69.893 0 1.42-.48 1.42-1.33zm2.316 4.6v-.919a.13.13 0 01.049-.1.132.132 0 01.108-.027c.158.029.318.044.479.044a1.229 1.229 0 001.245-.876l.067-.211a.133.133 0 000-.088l-2.145-5.471a.13.13 0 01.06-.165.13.13 0 01.062-.015h1.04a.132.132 0 01.123.085l1.456 3.859a.131.131 0 00.125.088.133.133 0 00.125-.088l1.265-3.848a.13.13 0 01.126-.09h1.076a.134.134 0 01.132.116.134.134 0 01-.008.063l-2.295 6.076c-.528 1.413-1.433 1.773-2.43 1.773a1.959 1.959 0 01-.561-.066.132.132 0 01-.1-.14h.001zM8.57 6.4a5.363 5.363 0 00-3.683 1.427.231.231 0 00-.029.31l.618.839a.236.236 0 00.362.028 3.823 3.823 0 012.738-1.11c2.12 0 3.227 1.584 3.227 3.15 0 1.7-1.163 2.898-2.835 2.921-1.292 0-2.266-.85-2.266-1.974a1.908 1.908 0 01.713-1.48.231.231 0 00.033-.324l-.65-.815a.236.236 0 00-.339-.034 3.43 3.43 0 00-.942 1.183 3.39 3.39 0 00-.337 1.47c0 1.935 1.655 3.452 3.775 3.464h.03c2.517-.032 4.337-1.884 4.337-4.415 0-2.247-1.667-4.64-4.752-4.64z" fill="#fff"></path></svg>
+          
+            <svg class="payment-list__item"  viewBox="-36 25 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-unionpay"><title id="pi-unionpay">Union Pay</title><path fill="#005B9A" d="M-36 46.8v.7-.7zM-18.3 25v24h-7.2c-1.3 0-2.1-1-1.8-2.3l4.4-19.4c.3-1.3 1.9-2.3 3.2-2.3h1.4zm12.6 0c-1.3 0-2.9 1-3.2 2.3l-4.5 19.4c-.3 1.3.5 2.3 1.8 2.3h-4.9V25h10.8z"></path><path fill="#E9292D" d="M-19.7 25c-1.3 0-2.9 1.1-3.2 2.3l-4.4 19.4c-.3 1.3.5 2.3 1.8 2.3h-8.9c-.8 0-1.5-.6-1.5-1.4v-21c0-.8.7-1.6 1.5-1.6h14.7z"></path><path fill="#0E73B9" d="M-5.7 25c-1.3 0-2.9 1.1-3.2 2.3l-4.4 19.4c-.3 1.3.5 2.3 1.8 2.3H-26h.5c-1.3 0-2.1-1-1.8-2.3l4.4-19.4c.3-1.3 1.9-2.3 3.2-2.3h14z"></path><path fill="#059DA4" d="M2 26.6v21c0 .8-.6 1.4-1.5 1.4h-12.1c-1.3 0-2.1-1.1-1.8-2.3l4.5-19.4C-8.6 26-7 25-5.7 25H.5c.9 0 1.5.7 1.5 1.6z"></path><path fill="#fff" d="M-21.122 38.645h.14c.14 0 .28-.07.28-.14l.42-.63h1.19l-.21.35h1.4l-.21.63h-1.68c-.21.28-.42.42-.7.42h-.84l.21-.63m-.21.91h3.01l-.21.7h-1.19l-.21.7h1.19l-.21.7h-1.19l-.28 1.05c-.07.14 0 .28.28.21h.98l-.21.7h-1.89c-.35 0-.49-.21-.35-.63l.35-1.33h-.77l.21-.7h.77l.21-.7h-.7l.21-.7zm4.83-1.75v.42s.56-.42 1.12-.42h1.96l-.77 2.66c-.07.28-.35.49-.77.49h-2.24l-.49 1.89c0 .07 0 .14.14.14h.42l-.14.56h-1.12c-.42 0-.56-.14-.49-.35l1.47-5.39h.91zm1.68.77h-1.75l-.21.7s.28-.21.77-.21h1.05l.14-.49zm-.63 1.68c.14 0 .21 0 .21-.14l.14-.35h-1.75l-.14.56 1.54-.07zm-1.19.84h.98v.42h.28c.14 0 .21-.07.21-.14l.07-.28h.84l-.14.49c-.07.35-.35.49-.77.56h-.56v.77c0 .14.07.21.35.21h.49l-.14.56h-1.19c-.35 0-.49-.14-.49-.49l.07-2.1zm4.2-2.45l.21-.84h1.19l-.07.28s.56-.28 1.05-.28h1.47l-.21.84h-.21l-1.12 3.85h.21l-.21.77h-.21l-.07.35h-1.19l.07-.35h-2.17l.21-.77h.21l1.12-3.85h-.28m1.26 0l-.28 1.05s.49-.21.91-.28c.07-.35.21-.77.21-.77h-.84zm-.49 1.54l-.28 1.12s.56-.28.98-.28c.14-.42.21-.77.21-.77l-.91-.07zm.21 2.31l.21-.77h-.84l-.21.77h.84zm2.87-4.69h1.12l.07.42c0 .07.07.14.21.14h.21l-.21.7h-.77c-.28 0-.49-.07-.49-.35l-.14-.91zm-.35 1.47h3.57l-.21.77h-1.19l-.21.7h1.12l-.21.77h-1.26l-.28.42h.63l.14.84c0 .07.07.14.21.14h.21l-.21.7h-.7c-.35 0-.56-.07-.56-.35l-.14-.77-.56.84c-.14.21-.35.35-.63.35h-1.05l.21-.7h.35c.14 0 .21-.07.35-.21l.84-1.26h-1.05l.21-.77h1.19l.21-.7h-1.19l.21-.77zm-19.74-5.04c-.14.7-.42 1.19-.91 1.54-.49.35-1.12.56-1.89.56-.7 0-1.26-.21-1.54-.56-.21-.28-.35-.56-.35-.98 0-.14 0-.35.07-.56l.84-3.92h1.19l-.77 3.92v.28c0 .21.07.35.14.49.14.21.35.28.7.28s.7-.07.91-.28c.21-.21.42-.42.49-.77l.77-3.92h1.19l-.84 3.92m1.12-1.54h.84l-.07.49.14-.14c.28-.28.63-.42 1.05-.42.35 0 .63.14.77.35.14.21.21.49.14.91l-.49 2.38h-.91l.42-2.17c.07-.28.07-.49 0-.56-.07-.14-.21-.14-.35-.14-.21 0-.42.07-.56.21-.14.14-.28.35-.28.63l-.42 2.03h-.91l.63-3.57m9.8 0h.84l-.07.49.14-.14c.28-.28.63-.42 1.05-.42.35 0 .63.14.77.35s.21.49.14.91l-.49 2.38h-.91l.42-2.24c.07-.21 0-.42-.07-.49-.07-.14-.21-.14-.35-.14-.21 0-.42.07-.56.21-.14.14-.28.35-.28.63l-.42 2.03h-.91l.7-3.57m-5.81 0h.98l-.77 3.5h-.98l.77-3.5m.35-1.33h.98l-.21.84h-.98l.21-.84zm1.4 4.55c-.21-.21-.35-.56-.35-.98v-.21c0-.07 0-.21.07-.28.14-.56.35-1.05.7-1.33.35-.35.84-.49 1.33-.49.42 0 .77.14 1.05.35.21.21.35.56.35.98v.21c0 .07 0 .21-.07.28-.14.56-.35.98-.7 1.33-.35.35-.84.49-1.33.49-.35 0-.7-.14-1.05-.35m1.89-.7c.14-.21.28-.49.35-.84v-.35c0-.21-.07-.35-.14-.49a.635.635 0 0 0-.49-.21c-.28 0-.49.07-.63.28-.14.21-.28.49-.35.84v.28c0 .21.07.35.14.49.14.14.28.21.49.21.28.07.42 0 .63-.21m6.51-4.69h2.52c.49 0 .84.14 1.12.35.28.21.35.56.35.91v.28c0 .07 0 .21-.07.28-.07.49-.35.98-.7 1.26-.42.35-.84.49-1.4.49h-1.4l-.42 2.03h-1.19l1.19-5.6m.56 2.59h1.12c.28 0 .49-.07.7-.21.14-.14.28-.35.35-.63v-.28c0-.21-.07-.35-.21-.42-.14-.07-.35-.14-.7-.14h-.91l-.35 1.68zm8.68 3.71c-.35.77-.7 1.26-.91 1.47-.21.21-.63.7-1.61.7l.07-.63c.84-.28 1.26-1.4 1.54-1.96l-.28-3.78h1.19l.07 2.38.91-2.31h1.05l-2.03 4.13m-2.94-3.85l-.42.28c-.42-.35-.84-.56-1.54-.21-.98.49-1.89 4.13.91 2.94l.14.21h1.12l.7-3.29-.91.07m-.56 1.82c-.21.56-.56.84-.91.77-.28-.14-.35-.63-.21-1.19.21-.56.56-.84.91-.77.28.14.35.63.21 1.19"></path></svg>
+          
+            <svg class="payment-list__item"  viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"></path></svg>
+    </div>
+  </div>
+</footer>
+<!-- footer end -->
+  <script>
+     // Toggle mobile menu visibility
+     document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        document.getElementById('close-menu').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.add('hidden');
+        });
+
+        const phrases = document.querySelectorAll('.rotating-text div');
+        let currentIndex = 0;
+
+        function showPhrase(index) {
+            phrases.forEach((phrase, i) => {
+                phrase.style.display = i === index ? 'block' : 'none';
+            });
+        }
+
+        function rotatePhrases() {
+            showPhrase(currentIndex);
+            currentIndex = (currentIndex + 1) % phrases.length;
+            setTimeout(rotatePhrases, 5000); // Change phrase every 5 seconds
+        }
+
+        rotatePhrases(); // Start the rotation
+
+        // first section JS
+        function changeImage(imageSrc) {
+            document.getElementById('mainImage').src = imageSrc;
+        }
+
+        // Initialize or retrieve the stock count from localStorage
+        let stockCount = parseInt(localStorage.getItem('stockCount')) || 10; // Starting value if not set
+
+            // Function to update the stock count
+            function updateStockCount() {
+                // Check if the count is 0
+                if (stockCount <= 0) {
+                    stockCount = 10; // Reset to 10 if count is 0
+                } else {
+                    // Decrease the count
+                    stockCount--;
+                }
+
+                // Save the new count to localStorage
+                localStorage.setItem('stockCount', stockCount);
+
+                // Update the span element with the new count
+                document.getElementById('stock-count').textContent = stockCount;
+            }
+
+            // Call the function on page load
+            updateStockCount();
+        // first section JS end
+
+        // swiper js start
+
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 5, // Show 5 images at a time
+            spaceBetween: 10, // Space between images
+            loop: true, // Enable infinite loop
+            autoplay: {
+                delay: 3000, // Delay in milliseconds (3 seconds)
+                disableOnInteraction: false, // Continue autoplay after user interactions
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                // When window width is <= 640px
+                640: {
+                    slidesPerView: 2, // Show 2 images at a time
+                },
+                // When window width is <= 768px
+                768: {
+                    slidesPerView: 3, // Show 3 images at a time
+                },
+                // When window width is <= 1024px
+                1024: {
+                    slidesPerView: 5, // Show 3 images at a time
+                },
+            },
+        });
+        // swiper js end
+
+        // FAQ js
+        function toggleAnswer(index) {
+            const answers = document.querySelectorAll('.answer');
+            const icons = document.querySelectorAll('.faq-icon');
+            const answer = answers[index];
+            const icon = icons[index];
+
+            answer.classList.toggle('show');
+            icon.classList.toggle('fa-plus');
+            icon.classList.toggle('fa-minus');
+        }
+</script>
+
+  </body>
+</html>
