@@ -23,7 +23,7 @@
       'US': '&#36;',   // HTML code for USD ($)
       'IN': '&#8377;', // HTML code for Indian Rupee (₹)
       'EU': '&#8364;', // HTML code for Euro (€)
-      'default': '&#36;' // Default to USD ($)
+      'default': '&#8364;' // Default to USD ($)
     };
 
     // Update the href attribute of the <a> tag (link + button)
